@@ -47,19 +47,19 @@ class Contact
         return $this->isEmailValid() && $this->isNameValid() && $this->isTagValid() && $this->isPhoneNumberValid();
     }
 
-    public function isNameValid() {
-        return !empty($this->name) && !empty($this->firstname);
+    private function isNameValid() {
+        return !empty($this->lastname && !empty($this->firstname));
     }
 
     private function isEmailValid() {
         return !empty($this->email) && filter_var($this->email, FILTER_VALIDATE_EMAIL);
     }
 
-    public function isPhoneNumberValid() {
+    private function isPhoneNumberValid() {
         return !empty($this->phone_number);
     }
 
-    public function isTagValid() {
+    private function isTagValid() {
         return !empty($this->tag);
     }
 
