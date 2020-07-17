@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\ContactRepository;
 use Doctrine\ORM\Mapping as ORM;
+use App\Tests\Entity\ContactTest;
 
 /**
  * @ORM\Entity(repositoryClass=ContactRepository::class)
@@ -41,6 +42,26 @@ class Contact
      * @ORM\Column(type="string", length=255)
      */
     private $tag;
+
+    public function isValid() {
+        return $this->isEmailValid() && $this->isNameValid() && $this->isTagValid() && $this->isPhoneNumberValid();
+    }
+
+    public function isNameValid() {
+        return !empty($this->name) && !empty($this->firstname);
+    }
+
+    private function isEmailValid() {
+        return !empty($this->email) && filter_var($this->email, FILTER_VALIDATE_EMAIL);
+    }
+
+    public function isPhoneNumberValid() {
+        return !empty($this->phone_number);
+    }
+
+    public function isTagValid() {
+        return !empty($this->tag);
+    }
 
     public function getId(): ?int
     {
