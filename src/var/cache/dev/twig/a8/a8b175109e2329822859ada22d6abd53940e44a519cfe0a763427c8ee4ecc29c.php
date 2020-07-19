@@ -202,6 +202,6 @@ class __TwigTemplate_504eacf37614a638d94dbbc14b49ae0381724cb50976c2ce6ff5a09e036
 {% endblock %}
 </body>
 </html>
-", "base.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\templates\\base.html.twig");
+", "base.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\templates\\base.html.twig");
     }
 }

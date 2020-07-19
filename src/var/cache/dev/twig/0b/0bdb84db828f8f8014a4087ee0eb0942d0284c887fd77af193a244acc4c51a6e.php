@@ -168,6 +168,6 @@ class __TwigTemplate_766ea44e03a7b15d5691a8f4456bc37e0ca334182cc85cebcc17cc5e5dc
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\ajax.html.twig");
     }
 }

@@ -193,6 +193,6 @@ class __TwigTemplate_9fefb8a5fb772a785e99bb49292093641d6a38c133e2b9784b3d6e3e22e
         {% block body '' %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
     }
 }

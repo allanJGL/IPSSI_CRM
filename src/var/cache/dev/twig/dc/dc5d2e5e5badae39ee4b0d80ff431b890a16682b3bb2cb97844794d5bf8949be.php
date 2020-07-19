@@ -471,6 +471,6 @@ class __TwigTemplate_724b34d88d145d5d3c79d90b8121ecce1e1d3dc109b5092ddac8a08e1ed
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/twig.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\twig.html.twig");
+", "@WebProfiler/Collector/twig.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\twig.html.twig");
     }
 }

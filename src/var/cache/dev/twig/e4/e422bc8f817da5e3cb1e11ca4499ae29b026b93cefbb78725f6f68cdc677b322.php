@@ -1704,6 +1704,6 @@ class __TwigTemplate_90923cd6930fa91906a4ef6a426ff63746d190b89e63cf7406271cb2ce8
     });
 
 /*]]>*/</script>
-", "@WebProfiler/Profiler/base_js.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base_js.html.twig");
+", "@WebProfiler/Profiler/base_js.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base_js.html.twig");
     }
 }

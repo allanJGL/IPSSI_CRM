@@ -1882,6 +1882,6 @@ class __TwigTemplate_06f63da7ad86cbf47fb9bb20f8d778da1287d77fafcef0a7e22535b4d51
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "D:\\xampp\\htdocs\\IPSSI_CRM\\src\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
     }
 }
