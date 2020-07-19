@@ -21,7 +21,6 @@ class ContactTest extends TestCase
 
     public function testIsValid()
     {
-//        $this->contact = new Contact();
         $this->assertTrue($this->contact->isValid());
     }
 
